@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\낙서장\낙서장\소스.cpp(14,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  낙서장.vcxproj -> C:\Users\rlaxo\source\repos\낙서장\Debug\낙서장.exe

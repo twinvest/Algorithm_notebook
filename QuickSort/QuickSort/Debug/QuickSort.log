@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\QuickSort\QuickSort\소스.cpp(57,13): warning C4326:  'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  QuickSort.vcxproj -> C:\Users\rlaxo\source\repos\QuickSort\Debug\QuickSort.exe

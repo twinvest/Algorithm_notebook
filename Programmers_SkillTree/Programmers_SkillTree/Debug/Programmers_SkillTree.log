@@ -1,0 +1,7 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_SkillTree\Programmers_SkillTree\소스.cpp(10,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_SkillTree\Programmers_SkillTree\소스.cpp(13,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_SkillTree\Programmers_SkillTree\소스.cpp(15,22): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_SkillTree\Programmers_SkillTree\소스.cpp(24,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_SkillTree\Programmers_SkillTree\소스.cpp(28,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Programmers_SkillTree.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_SkillTree\Debug\Programmers_SkillTree.exe

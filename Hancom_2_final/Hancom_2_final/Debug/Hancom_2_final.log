@@ -1,0 +1,8 @@
+﻿  source.cpp
+C:\Users\rlaxo\source\repos\Hancom_2_final\Hancom_2_final\source.cpp(42,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2_final\Hancom_2_final\source.cpp(53,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2_final\Hancom_2_final\source.cpp(63,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2_final\Hancom_2_final\source.cpp(78,23): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2_final\Hancom_2_final\source.cpp(91,12): warning C4477:  'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+C:\Users\rlaxo\source\repos\Hancom_2_final\Hancom_2_final\source.cpp(110,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Hancom_2_final.vcxproj -> C:\Users\rlaxo\source\repos\Hancom_2_final\Debug\Hancom_2_final.exe

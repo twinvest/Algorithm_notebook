@@ -1,0 +1,7 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Hancom_2\Hancom_2\소스.cpp(42,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2\Hancom_2\소스.cpp(53,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2\Hancom_2\소스.cpp(63,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2\Hancom_2\소스.cpp(78,23): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Hancom_2\Hancom_2\소스.cpp(110,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Hancom_2.vcxproj -> C:\Users\rlaxo\source\repos\Hancom_2\Debug\Hancom_2.exe

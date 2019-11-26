@@ -1,0 +1,5 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_KAKAO공채\Programmers_KAKAO공채\소스.cpp(19,17): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_KAKAO공채\Programmers_KAKAO공채\소스.cpp(31,15): warning C4018:  '>=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_KAKAO공채\Programmers_KAKAO공채\소스.cpp(49,15): warning C4018:  '>=': signed 또는 unsigned가 일치하지 않습니다.
+  Programmers_KAKAO공채.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_KAKAO공채\Debug\Programmers_KAKAO공채.exe

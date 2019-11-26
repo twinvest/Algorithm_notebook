@@ -1,0 +1,6 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Project2\Project2\소스.cpp(14,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Project2\Project2\소스.cpp(52,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Project2\Project2\소스.cpp(63,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Project2\Project2\소스.cpp(73,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Project2.vcxproj -> C:\Users\rlaxo\source\repos\Project2\Debug\Project2.exe
