@@ -1,2 +1,4 @@
 ﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_기능개발\Programmers_기능개발\소스.cpp(10,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_기능개발\Programmers_기능개발\소스.cpp(61,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_기능개발.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_기능개발\Debug\Programmers_기능개발.exe
