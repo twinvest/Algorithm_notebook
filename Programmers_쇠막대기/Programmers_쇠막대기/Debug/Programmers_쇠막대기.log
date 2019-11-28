@@ -1,6 +1,6 @@
 ﻿  소스.cpp
 C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(15,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(43,17): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(62,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(84,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(48,17): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(68,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Programmers_쇠막대기\소스.cpp(87,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_쇠막대기.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_쇠막대기\Debug\Programmers_쇠막대기.exe

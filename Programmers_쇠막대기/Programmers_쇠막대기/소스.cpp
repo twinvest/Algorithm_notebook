@@ -14,6 +14,7 @@ int solution(string arrangement) {
 	char rem = ')';
 	for (int i = 0; i < arrangement.length(); i++)
 	{
+		// '('인 경우 ==> 스택에 푸쉬푸쉬~~
 		if (arrangement[i] == '(')
 		{
 			s2.push(arrangement[i]);
@@ -24,20 +25,24 @@ int solution(string arrangement) {
 		else
 		{
 			printf("%c", arrangement[i]);
-			if (s2.top() == '(' && rem =='(') //레이저임
+			//레이저임. 왜냐구? 바로 전의 괄호를 rem에 기억시켜놨으니까! 레이저는 -1로 초기화
+			if (s2.top() == '(' && rem =='(')
 			{
 				s2.pop();
 				v[i] = -1;
 				v[i - 1] = -1;
 				rem = ')';
 			}
-			else if (s2.top() == '(') //막대기의 끝임
+			//막대기의 끝임. 막대기의 끝의 번호를 표시해둔다.
+			else if (s2.top() == '(') 
 			{
 				v[i] = ++len;
+				rem = ')';
 			}
 		}
 	}
 
+	//막대기의 첫위치를 찾아가는 반복문
 	for (int i = 1; i <= len; i++)
 	{
 		for(int j=0; j<v.size(); ++j)
@@ -56,6 +61,7 @@ int solution(string arrangement) {
 		}
 	}
 	
+	//절단된 막대기의 개수를 세는 반복문
 	int count = 0;
 	for (int i = 1; i <= len; i++)
 	{
@@ -77,16 +83,13 @@ int solution(string arrangement) {
 		}
 	}
 	
-	/*
-	printf("\n\n");
-	printf("%d", v.size());
 	printf("\n\n");
 	for (int i = 0; i < v.size(); ++i)
 	{
 		printf("%d ", v[i]);
 	}
 	printf("\n\n");
-	*/
+	
 	return ans;
 }
 
