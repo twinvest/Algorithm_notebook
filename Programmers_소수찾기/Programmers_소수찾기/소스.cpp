@@ -22,7 +22,7 @@ int solution(string numbers) {
 		{
 			answer++;
 		}
-		if (temp[i] == false) 
+		if (temp[i] == false) //에라토스테네스의 체
 		{
 			for (int j = i; j <= stoi(numbers); j += i) 
 			{
@@ -37,7 +37,7 @@ bool checkNumber(int i, string numbers)
 {
 	bool flag = false;
 	vector<bool> visit(numbers.length());
-	while (i != 0) 
+	while (i != 0)
 	{
 		flag = false;
 		int temp = i % 10;
@@ -59,7 +59,7 @@ bool checkNumber(int i, string numbers)
 
 int main()
 {
-	string a = "013";
+	string a = "17";
 	int ans = solution(a);
 	printf("%d", ans);
 }
