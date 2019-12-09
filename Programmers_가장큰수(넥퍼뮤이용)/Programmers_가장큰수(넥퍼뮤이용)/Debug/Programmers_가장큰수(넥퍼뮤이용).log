@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_가장큰수(넥퍼뮤이용)\Programmers_가장큰수(넥퍼뮤이용)\소스.cpp(12,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_가장큰수(넥퍼뮤이용)\Programmers_가장큰수(넥퍼뮤이용)\소스.cpp(19,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Programmers_가장큰수(넥퍼뮤이용).vcxproj -> C:\Users\rlaxo\source\repos\Programmers_가장큰수(넥퍼뮤이용)\Debug\Programmers_가장큰수(넥퍼뮤이용).exe
