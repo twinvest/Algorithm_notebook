@@ -1,2 +1,3 @@
 ﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_네트워크\Programmers_네트워크\소스.cpp(128,9): warning C4477:  'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'clock_t'입니다.
   Programmers_네트워크.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_네트워크\Debug\Programmers_네트워크.exe

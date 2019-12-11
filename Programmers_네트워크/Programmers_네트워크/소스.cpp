@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <time.h>
 using namespace std;
 vector<vector<bool>> visit;
 
@@ -43,31 +44,87 @@ int solution(int n, vector<vector<int>> computers) {
 
 int main()
 {
+	clock_t start, end;
 	vector<vector<int>> arr;
-	int N = 3;
+	int N = 7;
+	
 	vector<int> t1;
 	t1.push_back(1);
 	t1.push_back(1);
+	t1.push_back(1);
+	t1.push_back(0);
+	t1.push_back(0);
+	t1.push_back(0);
 	t1.push_back(0);
 
 	vector<int> t2;
 	t2.push_back(1);
 	t2.push_back(1);
+	t2.push_back(1);
 	t2.push_back(0);
-
+	t2.push_back(0);
+	t2.push_back(0);
+	t2.push_back(0);
+	
+	
 	vector<int> t3;
-	t3.push_back(0);
-	t3.push_back(0);
 	t3.push_back(1);
+	t3.push_back(1);
+	t3.push_back(1);
+	t3.push_back(0);
+	t3.push_back(0);
+	t3.push_back(0);
+	t3.push_back(0);
+
+	vector<int> t4;
+	t4.push_back(0);
+	t4.push_back(0);
+	t4.push_back(0);
+	t4.push_back(1);
+	t4.push_back(0);
+	t4.push_back(0);
+	t4.push_back(1);
+
+	vector<int> t5;
+	t5.push_back(0);
+	t5.push_back(0);
+	t5.push_back(0);
+	t5.push_back(0);
+	t5.push_back(1);
+	t5.push_back(1);
+	t5.push_back(0);
+
+	vector<int> t6;
+	t6.push_back(0);
+	t6.push_back(0);
+	t6.push_back(0);
+	t6.push_back(0);
+	t6.push_back(1);
+	t6.push_back(1);
+	t6.push_back(0);
+	
+	vector<int> t7;
+	t7.push_back(0);
+	t7.push_back(0);
+	t7.push_back(0);
+	t7.push_back(1);
+	t7.push_back(0);
+	t7.push_back(0);
+	t7.push_back(1);
 
 	arr.push_back(t1);
 	arr.push_back(t2);
 	arr.push_back(t3);
+	arr.push_back(t4);
+	arr.push_back(t5);
+	arr.push_back(t6);
+	arr.push_back(t7);
 
 
-
+	start = clock();
 	int ans = solution(N, arr);
-	printf("%d", ans);
-
+	end = clock();
+	printf("%d\n", ans);
+	printf("%f", end - start);
 
 }
