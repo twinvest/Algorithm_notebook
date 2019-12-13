@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_디스크 컨트롤러\Programmers_디스크 컨트롤러\소스.cpp(16,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_디스크 컨트롤러\Programmers_디스크 컨트롤러\소스.cpp(23,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Programmers_디스크 컨트롤러.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_디스크 컨트롤러\Debug\Programmers_디스크 컨트롤러.exe
