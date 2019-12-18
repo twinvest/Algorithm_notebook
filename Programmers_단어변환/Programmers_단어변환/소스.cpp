@@ -3,7 +3,6 @@
 #include <vector>
 #include <algorithm>
 #include <set>
-//
 using namespace std;
 vector<string> paths;
 int dfs(string begin, string target, vector<string> words, vector<string> paths, int depth)
