@@ -1,8 +1,4 @@
 ﻿  소스.cpp
-C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(16,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(25,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(34,22): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(56,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(68,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(72,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(17,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\Programmers_단어변환\Programmers_단어변환\소스.cpp(43,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_단어변환.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_단어변환\Debug\Programmers_단어변환.exe

@@ -1,83 +1,57 @@
-#include <iostream>
 #include <string>
 #include <vector>
-#include <algorithm>
-#include <set>
-using namespace std;
-vector<string> paths;
-int dfs(string begin, string target, vector<string> words, vector<string> paths, int depth)
-{
-	int large = 987654321;
-	if (depth-1 == words.size())
-		return 0;
-	if (begin == target)
-	{
-		for (int i = 0; i < paths.size(); ++i)
-		{
-			cout << paths[i] << " ";
-		}
-		printf(" %d", paths.size());
-		cout << endl;
-		return paths.size();
-	}
-		
-	for (int i = 0; i < words.size(); ++i)
-	{
-		if (find(paths.begin(), paths.end(), words[i]) != paths.end())
-			continue;
-		else
-		{
-			int check = 0;
-			string comp = words[i];
+#include <iostream>
 
-			for (int j = 0; j < begin.size(); ++j)
+using namespace std;
+int answer = 101;
+bool visited[51];
+//예전 commit코드와 비교해볼걸
+
+void dfs(int cnt, string begin, string target, int idx, vector<string>& words) {
+	if (begin == target) 
+	{
+		if (answer > cnt) answer = cnt;
+		return;
+	}
+
+	for (int i = 0; i < words.size(); i++) 
+	{
+		int tmp_cnt = 0;
+		if (!visited[i]) 
+		{
+			string tmp = words.at(i);
+			for (int j = 0; begin[j]; j++) 
 			{
-				if (comp[j] == begin[j]) check++;
-				if (check == begin.size() - 1)
+				if (begin[j] != tmp[j]) 
 				{
-					begin = words[i];
-					paths.push_back(begin);
-					
-					large = min(dfs(begin, target, words, paths, depth + 1), large);
-					paths.erase(paths.begin() + depth);
+					tmp_cnt++;
 				}
+			}
+			//for j
+			if (tmp_cnt == 1) 
+			{
+				visited[i] = true;
+				dfs(cnt + 1, tmp, target, i + 1, words);
+				visited[i] = false;
 			}
 		}
 	}
-	return large;
 }
 
-
-
 int solution(string begin, string target, vector<string> words) {
-	//처음시작하면서 target이 words안에있는지 확인하고 없으면 바로 0리턴하고 종료
-	bool flag = true;
-	for (int i = 0; i < words.size(); i++)
+	bool flag = false;
+	for (int i = 0; i < words.size(); i++) 
 	{
-		if (target == words[i])
+		if (words.at(i) == target) 
 		{
-			flag = false;
+			flag = true;
 			break;
 		}
 	}
-	if (flag) return 0;
-
-
-	int answer = 0;
-	for (int i = 0; i < words.size(); ++i)
-	{
-		int check = 0;
-		string comp = words[i];
-		for (int j = 0; j < begin.size(); ++j)
-		{
-			if (comp[j] == begin[j]) check++;
-			if (check == begin.size() - 1)
-			{
-				begin = words[i];
-				paths.push_back(begin);
-				answer = dfs(begin, target, words, paths, 1);
-			}
-		}
+	if (!flag) answer = 0;
+	else {
+		//탐색 시작 
+		dfs(0, begin, target, 0, words);
 	}
 	return answer;
 }
