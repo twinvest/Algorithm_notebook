@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\Programmers_카펫\Programmers_카펫\소스.cpp(20,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Programmers_카펫.vcxproj -> C:\Users\rlaxo\source\repos\Programmers_카펫\Debug\Programmers_카펫.exe

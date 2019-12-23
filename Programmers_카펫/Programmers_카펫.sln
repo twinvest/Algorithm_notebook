@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers_카펫", "Programmers_카펫\Programmers_카펫.vcxproj", "{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Debug|x64.ActiveCfg = Debug|x64
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Debug|x64.Build.0 = Debug|x64
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Debug|x86.ActiveCfg = Debug|Win32
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Debug|x86.Build.0 = Debug|Win32
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Release|x64.ActiveCfg = Release|x64
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Release|x64.Build.0 = Release|x64
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Release|x86.ActiveCfg = Release|Win32
+		{BADE7BFA-CE15-4FBB-BDFF-4DEEFEE5309F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {296D6AF6-F6EA-49BB-9BC1-83FBC0CB214A}
+	EndGlobalSection
+EndGlobal
