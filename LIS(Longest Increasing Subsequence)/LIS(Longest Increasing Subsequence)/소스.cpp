@@ -31,6 +31,9 @@ int main()
 				}
 			}
 		}
+		for (int i = 0; i < n; ++i)
+			printf("%d ", dp[i]);
+		printf("\n");
 		printf("#%d %d\n", tc, ans);
 	}
 }
