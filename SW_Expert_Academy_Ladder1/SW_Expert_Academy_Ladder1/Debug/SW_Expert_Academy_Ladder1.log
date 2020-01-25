@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Ladder1\SW_Expert_Academy_Ladder1\소스.cpp(14,40): warning C4101:  'nexty' :참조되지 않은 지역 변수입니다.
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Ladder1\SW_Expert_Academy_Ladder1\소스.cpp(14,33): warning C4101:  'nextx' :참조되지 않은 지역 변수입니다.
+  SW_Expert_Academy_Ladder1.vcxproj -> C:\Users\rlaxo\source\repos\SW_Expert_Academy_Ladder1\Debug\SW_Expert_Academy_Ladder1.exe
