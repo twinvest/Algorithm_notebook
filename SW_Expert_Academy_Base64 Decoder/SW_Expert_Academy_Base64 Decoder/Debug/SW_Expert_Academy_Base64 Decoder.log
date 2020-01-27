@@ -1,0 +1,7 @@
+﻿  소스.cpp
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Base64 Decoder\SW_Expert_Academy_Base64 Decoder\소스.cpp(54,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Base64 Decoder\SW_Expert_Academy_Base64 Decoder\소스.cpp(67,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Base64 Decoder\SW_Expert_Academy_Base64 Decoder\소스.cpp(83,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Base64 Decoder\SW_Expert_Academy_Base64 Decoder\소스.cpp(90,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlaxo\source\repos\SW_Expert_Academy_Base64 Decoder\SW_Expert_Academy_Base64 Decoder\소스.cpp(103,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  SW_Expert_Academy_Base64 Decoder.vcxproj -> C:\Users\rlaxo\source\repos\SW_Expert_Academy_Base64 Decoder\Debug\SW_Expert_Academy_Base64 Decoder.exe
