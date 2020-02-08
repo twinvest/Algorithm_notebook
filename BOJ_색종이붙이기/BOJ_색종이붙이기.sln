@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BOJ_색종이붙이기", "BOJ_색종이붙이기\BOJ_색종이붙이기.vcxproj", "{07EC9564-F724-40B3-ACDA-5601652965A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Debug|x64.ActiveCfg = Debug|x64
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Debug|x64.Build.0 = Debug|x64
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Debug|x86.Build.0 = Debug|Win32
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Release|x64.ActiveCfg = Release|x64
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Release|x64.Build.0 = Release|x64
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Release|x86.ActiveCfg = Release|Win32
+		{07EC9564-F724-40B3-ACDA-5601652965A3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11369FC6-FE23-4F32-8D53-22FE1149FB2B}
+	EndGlobalSection
+EndGlobal
